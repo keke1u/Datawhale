@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum1(self, nums, target):
+    def twoSum1(self, nums, target): #48ms
         """
         :type nums: List[int]
         :type target: int
@@ -13,7 +13,7 @@ class Solution:
                 return [i2, hashtable[target - v2]]
                 
                 
-    def twoSum2(self, nums, target):
+    def twoSum2(self, nums, target): #56ms
         """
         :type nums: List[int]
         :type target: int
