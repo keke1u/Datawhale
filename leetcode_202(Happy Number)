@@ -1,5 +1,5 @@
 class Solution:
-    def isHappy(self, n):
+    def isHappy(self, n): # 60
         """
         :type n: int
         :rtype: bool
